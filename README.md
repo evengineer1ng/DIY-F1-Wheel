@@ -26,7 +26,7 @@ It reads 28 buttons (24 via shift registers + 4 direct GPIO) and two analog Hall
 | **Logitech G29 Wheel PCB** | Contains 3 × 74HC165 shift registers for button scanning |
 | **3× 74HC165N** | Already on the G29 board |
 | **2× Hall Sensors** | For paddle axes (analog output 0–3.3 V) |
-| **4× Momentary Push Buttons** | Connected directly to GPIO 21, 17, 18, 19 |
+| **4× Momentary Push Buttons** | Connected directly to GPIO 21, 17, 18, 19, for up/down shift + optional extra buttons |
 
 ---
 
@@ -49,12 +49,12 @@ Additional I/O:
 
 | ESP32-C6 Pin | Function |
 |---------------|-----------|
-| **GPIO 21** | Button A (pulled up) |
-| **GPIO 17** | Button B |
-| **GPIO 18** | Button C |
-| **GPIO 19** | Button D |
-| **GPIO 2 (ADC1_CH0)** | Paddle X axis |
-| **GPIO 3 (ADC1_CH1)** | Paddle Y axis |
+| **GPIO 21** | Upshift 1 (pulled up) |
+| **GPIO 17** | Upshift 2|
+| **GPIO 18** | Downshift 1 |
+| **GPIO 19** | Downshift 2 |
+| **GPIO 2 (ADC1_CH0)** | Clutch Paddle X axis |
+| **GPIO 3 (ADC1_CH1)** | Clutch Paddle Y axis |
 
 Optional pins defined but unused for outputs (from original PCB):
 
