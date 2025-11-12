@@ -25,12 +25,17 @@ An axis changes beyond a small deadband
 Fully compatible with PC, macOS, Linux, Android
 
 Hardware
-Component	Notes
+Component	
 ESP32-C6 Dev Board	Any variant (USB-C recommended)
+
 Logitech G29 Wheel PCB	Contains 3 × 74HC165 shift registers for button scanning
+
 3× 74HC165N	Already on the G29 board
+
 2× Hall Sensors	For paddle axes (analog output 0–3.3 V)
+
 4× Momentary Push Buttons	Connected directly to GPIO 21, 17, 18, 19
+
 Wiring Diagram
 Connections
 ESP32-C6 Pin	G29 PCB / 74HC165 Signal	Direction	Description
