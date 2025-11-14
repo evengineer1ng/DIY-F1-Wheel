@@ -22,7 +22,7 @@ It reads 28 buttons (24 via shift registers + 4 direct GPIO) and two analog Hall
 
 | Component | Notes |
 |------------|-------|
-| **ESP32-C6 Dev Board** | Any variant (USB-C recommended) |
+| **ESP32-C6 Dev Board** | Any variant (USB-C recommended) This project depends on certan BLE Bluetooth dependencies which play better with a ESP32 C6 I've found. I've tried other ESP32's like an S3 and a regular ESP32 dev kit with worse luck so stick with a C6! |
 | **Logitech G29 Wheel PCB** | Contains 3 × 74HC165 shift registers for button scanning |
 | **3× 74HC165N** | Already on the G29 board |
 | **2× Hall Sensors** | For paddle axes (analog output 0–3.3 V) |
