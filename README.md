@@ -28,6 +28,7 @@ It reads 28 buttons (24 via shift registers + 4 direct GPIO) and two analog Hall
 | **2× Hall Sensors** | For paddle axes (analog output 0–3.3 V) |
 | **4× Microswitches** | Connected directly to GPIO 21, 17, 18, 19, for up/down shift + optional extra buttons |
 | **1x JST PH 7 pin connector like the 7 pin connectors in this kit https://www.amazon.ca/dp/B09D35FQN2?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_AAF8HJ26T9T95VD5EJKY and dupont wires crimped or whatever into the JST 7 pin connector.
+| **1× QR adapter** | For attaching to wheelbase. I use Kyostar quick releases from Amazon.ca |
 ---
 
 ##  The back of the pcb has one 7 pin connection and it is what we can use to connect to our microcontroller with a 7 pin jst ph connector and dupont wires. The layout is this of the 7 pin connector
