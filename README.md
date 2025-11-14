@@ -58,14 +58,12 @@ The 165s control controls, and the 595s control lights, so really you only need 
 | **3.3 V** | VCC | Power | Shared VCC for shift registers | This is the SEVENTH OR LAST PIN FROM THE TOP of the 7 pin JST PH Connector at the back of the G29 pcb.
 | **GND** | GND | — | Common ground | This is the FIRST PIN FROM THE TOP of the 7 pin JST PH Connector at the back of the G29 pcb.
 
-The three 74HC165 chips are daisy-chained (Q7 of one → SER of next).  
-All share **PL** and **CLK** lines from the ESP32.
 
 Additional I/O:
 
 | ESP32-C6 Pin | Function |
 |---------------|-----------|
-| **GPIO 21** | Upshift 1 (pulled up) |
+| **GPIO 21** | Upshift 1|
 | **GPIO 17** | Upshift 2|
 | **GPIO 18** | Downshift 1 |
 | **GPIO 19** | Downshift 2 |
