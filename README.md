@@ -117,7 +117,7 @@ When flashed, the serial monitor (115200 baud) will show:
 ---
 
 ##  Usage
-- On your PC or phone, open Bluetooth and pair with device **“FW707”**  
+- On your PC or whatever, open Bluetooth and pair with device **“FW707”**  
 - Buttons and axes appear as a standard HID joystick  
 - Open a game controller tester (Windows: *joy.cpl*) to verify  
 - Pressing buttons or moving paddles updates the HID report instantly  
