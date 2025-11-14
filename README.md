@@ -33,11 +33,17 @@ It reads 28 buttons (24 via shift registers + 4 direct GPIO) and two analog Hall
 ##  The back of the pcb has one 7 pin connection and it is what we can use to connect to our microcontroller with a 7 pin jst ph connector and dupont wires. The layout is this of the 7 pin connector
 
 Pin 1: Ground
+
 Pin 2: Data from the 165
+
 Pin 3: Data to the 595
+
 Pin 4: Clock to both the 165 and 595.
+
 Pin 5: Reset Clock to the 595
+
 Pin 6: Parallel Load to the 165
+
 Pin 7: VCC
 
 The 165s control controls, and the 595s control lights, so really you only need 5 pins for a functional build including the 2 power pins always. Don't mix up the GND and 5v!
