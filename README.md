@@ -1,4 +1,5 @@
 #  ESP32-C6 BLE Gamepad (Logitech G29 PCB)
+<img width="768" height="1024" alt="image" src="https://github.com/user-attachments/assets/b92a32ed-32af-4001-b9d1-b1630fbccf36" />
 
 This project converts a **Logitech G29 steering wheel PCB** into a **Bluetooth LE gamepad** using an **ESP32-C6**.  
 It reads 28 buttons (24 via shift registers + 4 direct GPIO) and two analog Hall sensors, and exposes them as a HID joystick over BLE.
